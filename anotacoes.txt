@@ -7,6 +7,11 @@
 //sempre deixa a aplicação no ar ( desenvolvimento)
 >npm install nodemon --save-dev
 
+//sobre a chave git
+https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-P%C3%BAblica-SSH
+> ls -al ~/.ssh
+> ssh-keygen -t rsa -b 4096 -C "egranfont@gmail.com"
+> cat ~/.ssh/id_rsa.pub
 
 
 //git
