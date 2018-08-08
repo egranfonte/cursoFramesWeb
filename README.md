@@ -17,7 +17,7 @@ Sempre deixa a aplicação no ar ( desenvolvimento)
 
 Criar arquivo
 > loader.js
->>
+```
 //backend estará rodando na porta 3003
 const porta = 3003
 
@@ -37,7 +37,7 @@ server.listen(porta, function(){
 server.use(function (req,res,next){
     res.send('Funcionou!')
 })
->>
+```
 
 
 Email [egranfont@gmail.com](egranfont@gmail.com)
