@@ -6,7 +6,7 @@ Criar pastas
 > mkdir CursoFramesWeb && cd CursoFramesWeb
 > mkdir backend && cd backend
 
-Criar o package.json  de index.js para loader.js)
+Criar o "package.json"  (de index.js para loader.js)
 > npm init
 
 Instalar as dependencias
@@ -38,6 +38,10 @@ server.use(function (req,res,next){
     res.send('Funcionou!')
 })
 ```
+Executar o projeto 
+> npm run dev
 
+Abrir o browser 
+> 127.0.0.1:3003
 
 Email [egranfont@gmail.com](egranfont@gmail.com)
