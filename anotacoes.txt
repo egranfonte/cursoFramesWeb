@@ -7,6 +7,31 @@
 //sempre deixa a aplicação no ar ( desenvolvimento)
 >npm install nodemon --save-dev
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //sobre a chave git
 https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-P%C3%BAblica-SSH
 > ls -al ~/.ssh
@@ -24,3 +49,9 @@ https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-P%C3%BAblica
 >git add .
 > git commit -m " Primeiro commit - envio do projeto"
 >git push -u origin master
+
+λ git status
+λ git checkout master
+λ git add anotacoes.txt
+λ git commit -m "adicionado comando git.txt"
+λ git push -u origin master
