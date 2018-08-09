@@ -7,7 +7,7 @@ const bodyParser = require('body-parser' )
 //framework web express
 const express = require('express')
 const server = express()
-//para toda requisicao que chegar dentro do backend será passado por ese midleware urlencoded
+//para toda requisicao que chegar dentro do backend será passado por esse midleware urlencoded
 server.use(bodyParser.urlencoded({extended: true}))
 server.use(bodyParser.json())
 
