@@ -14,6 +14,9 @@ server.use(bodyParser.json())
 server.listen(porta, function(){
     console.log(` BACKEND está rodando na porta ${porta}.`)
 })
+
+module.exports = server
+
 /*
 server.use(function (req,res,next){
     //const init = Date.now()
@@ -21,10 +24,11 @@ server.use(function (req,res,next){
     console.log(' meu middleware 1 ')
     next()
 })
+
 //middleware que serve para todas as urls da aplicação
 server.use(function (req,res,next){
     console.log(' meu middleware 2 ')
-    res.send(' Funcionou novamente!!!')
+    res.send(' ControlP ')
     
 })
 */

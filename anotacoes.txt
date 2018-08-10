@@ -60,3 +60,19 @@ https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-P%C3%BAblica
 λ git commit -m "adicionado comando git.txt"
 λ git push -u origin master
 
+/*
+POST
+name: Janeiro/17
+month: 1
+year: 2018
+credits[0][name]: Salario Empresa
+credits[0][value]: 6500
+credits[1][name]: Salario Professor
+credits[1][value]: 2700
+debts[0][name]: Telefone
+debts:[0][value]: 50
+debts:[0][status]: PAGO
+debts[1][name]: Telefone
+debts:[1][value]: 50
+debts:[1][status]: PAGO
+*/
