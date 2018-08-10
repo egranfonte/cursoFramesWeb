@@ -12,9 +12,9 @@ module.exports = function(server){
     //metodo node restul register
     cicloPagamentoService.register(router, '/cicloPagamento') 
     
-    /*teste
-    router.route('/teste').get(function(req,res,next){
-        res.send('funcionou')
+    
+    router.route('/').get(function(req,res,next){
+        res.send('API Funcioanndo corretamente !!!')
     })
-    */
+    
 }
