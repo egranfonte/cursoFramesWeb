@@ -12,7 +12,11 @@ module.exports = function(server){
     //metodo node restul register
     cicloPagamentoService.register(router, '/cicloPagamento') 
     
-    
+    const sumarizaPagamentoService = require('../api/sumarizaPagamento/sumarizaPagamentoService')
+    //
+    router.route('/sumarizaPagamento').get(sumarizaPagamentoService.getSumariza)
+
+
     router.route('/').get(function(req,res,next){
         res.send('API Funcioanndo corretamente !!!')
     })
